@@ -28,7 +28,7 @@ RUN mkdir -p /home/app
 RUN chown app /home/app
 
 # Use the unprivileged user
-USER app
+#USER app
 
 # Install the api program
 RUN go install github.com/RichardKnop/go-oauth2-server
